@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/autoenterprise-test/static/css/main.83be2c03.chunk.css",
+    "main.js": "/autoenterprise-test/static/js/main.2ec9fcc7.chunk.js",
+    "main.js.map": "/autoenterprise-test/static/js/main.2ec9fcc7.chunk.js.map",
+    "runtime-main.js": "/autoenterprise-test/static/js/runtime-main.0f14eb11.js",
+    "runtime-main.js.map": "/autoenterprise-test/static/js/runtime-main.0f14eb11.js.map",
+    "static/css/2.bc922b9c.chunk.css": "/autoenterprise-test/static/css/2.bc922b9c.chunk.css",
+    "static/js/2.3ef46fee.chunk.js": "/autoenterprise-test/static/js/2.3ef46fee.chunk.js",
+    "static/js/2.3ef46fee.chunk.js.map": "/autoenterprise-test/static/js/2.3ef46fee.chunk.js.map",
+    "index.html": "/autoenterprise-test/index.html",
+    "static/css/2.bc922b9c.chunk.css.map": "/autoenterprise-test/static/css/2.bc922b9c.chunk.css.map",
+    "static/css/main.83be2c03.chunk.css.map": "/autoenterprise-test/static/css/main.83be2c03.chunk.css.map",
+    "static/js/2.3ef46fee.chunk.js.LICENSE.txt": "/autoenterprise-test/static/js/2.3ef46fee.chunk.js.LICENSE.txt",
+    "static/media/ce.94c90a6c.svg": "/autoenterprise-test/static/media/ce.94c90a6c.svg",
+    "static/media/download.fd84adf0.svg": "/autoenterprise-test/static/media/download.fd84adf0.svg",
+    "static/media/eac.9effcf4e.svg": "/autoenterprise-test/static/media/eac.9effcf4e.svg",
+    "static/media/logo.62855257.svg": "/autoenterprise-test/static/media/logo.62855257.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0f14eb11.js",
+    "static/css/2.bc922b9c.chunk.css",
+    "static/js/2.3ef46fee.chunk.js",
+    "static/css/main.83be2c03.chunk.css",
+    "static/js/main.2ec9fcc7.chunk.js"
+  ]
+}
