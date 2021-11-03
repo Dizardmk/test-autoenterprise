@@ -1,0 +1,192 @@
+@use '../../styles/variables' as *;
+
+.card {
+  width: 100%;
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.15);
+  padding: 15px;
+
+  &:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+
+.image {
+  width: 100%;
+}
+
+.title {
+  font-weight: 900;
+  @include font(24px, 27px);
+  text-align: center;
+  margin: 15px 0;
+  color: $title-color;
+}
+
+.linksWrapper {
+  border-top: 1px solid $border-color;
+  border-bottom: 1px solid $border-color;
+  padding: 10px 0;
+}
+
+.linksItem {
+  text-align: center;
+
+  &:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
+
+.link {
+  position: relative;
+  color: $link-color;
+
+  &:after {
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: $link-color;
+    content: '';
+    transition: width 200ms ease-in-out;
+  }
+
+  &:hover:after,
+  &:focus:after {
+    width: 100%;
+  }
+}
+
+.buttonWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.buttonItem {
+  &:not(:last-child) {
+    margin-right: 15px;
+  }
+}
+
+.button {
+  background: $button-color;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 15px;
+}
+
+.buttonIcon {
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    width: 48%;
+
+    &:nth-last-child(-n + 2) {
+      margin-bottom: 0px;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .card {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 49%;
+    padding: 0px;
+
+    &:not(:last-child) {
+      margin-bottom: 20px;
+    }
+    &:nth-last-child(-n + 2) {
+      margin-bottom: 0px;
+    }
+  }
+
+  .imageWrapper {
+    width: 44%;
+  }
+
+  .infoWrapper {
+    padding: 20px;
+  }
+
+  .title {
+    text-align: left;
+  }
+
+  .linksWrapper {
+    padding: 20px 0;
+  }
+
+  .linksItem {
+    text-align: left;
+
+    &:not(:last-child) {
+      margin-bottom: 20px;
+    }
+  }
+
+  .buttonWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 20px;
+  }
+
+  .buttonItem {
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
+  }
+
+  .button {
+    width: 134px;
+    height: 50px;
+    cursor: pointer;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  .title {
+    @include font(35px, 42px);
+    margin: 20px 0;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .card {
+    justify-content: space-between;
+    width: 49.5%;
+  }
+
+  .imageWrapper {
+    width: 50%;
+  }
+
+  .infoWrapper {
+    padding: 0 0 25px 50px;
+  }
+
+  .title {
+    @include font(40px, 47px);
+    margin: 0 0 20px;
+  }
+
+  .linksWrapper {
+    padding: 30px 0;
+  }
+
+  .linksItem {
+    &:not(:last-child) {
+      margin-bottom: 30px;
+    }
+  }
+}
